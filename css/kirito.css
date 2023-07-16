@@ -17,28 +17,15 @@
 }*/
 
 .left-block {
-    margin-left: 100px;
-    width: 200px; /* задаем ширину блока */
-    background-color: rgb(89, 48, 255); /* временно устанавливаем фон*/
+    width: 400px; /* задаем ширину блока */
+    /*background-color: tomato; /* временно устанавливаем фон */
     float: left; /* задаем поток обтекания слева */
-    -webkit-box-shadow: 7px 4px 8px 0px rgba(0, 144, 255, 0.2);
-    -moz-box-shadow: 7px 4px 8px 0px rgba(0, 144, 255, 0.2);
-    box-shadow: 7px 4px 8px 0px rgba(0, 144, 255, 0.2);
 }
 .right-block {
-    margin-right: 100px;
-    margin-top: 100px;
+    margin-top: 100px ;
     width: 700px; /* задаем ширину блока */
     /*background-color: cadetblue; /* временно устанавливаем фон */
     float: right; /* задаем поток обтекания справа */
-}
-
-.centr{
-    margin-top: 100px;
-    width: auto; /* задаем ширину блока*/
-    /*background-color: rgb(255, 255, 255);*/
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .kir{
@@ -77,13 +64,4 @@
     margin-right: 100px;
     margin-top: 100px ;
     margin-bottom: 100px;
-}
-
-
-
-
-.line {
-    border-bottom: 5px solid rgb(0, 0, 0);
-    margin-top: 5px;
-    width: 90%;
 }
