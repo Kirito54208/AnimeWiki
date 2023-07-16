@@ -24,10 +24,17 @@
 }
 .right-block {
     margin-right: 100px;
+    margin-top: 300px;
     width: 700px; /* задаем ширину блока */
     /*background-color: cadetblue; /* временно устанавливаем фон */
     float: right; /* задаем поток обтекания справа */
 }
+
+/*.centr-block{
+    margin-top: 300px;
+    width: 900px; /* задаем ширину блока
+    
+}*/ 
 
 .kir{
     margin-top: 100px ;
