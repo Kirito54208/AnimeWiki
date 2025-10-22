@@ -1,4 +1,4 @@
-.men{
+.men {
     background-color: rgb(82, 83, 83);
     height: auto;
     background-size: cover;
@@ -18,34 +18,43 @@
 
 .left-block {
     margin-left: 100px;
-    width: 400px; /* задаем ширину блока */
+    width: 400px;
+    /* задаем ширину блока */
     /*background-color: tomato; /* временно устанавливаем фон */
-    float: left; /* задаем поток обтекания слева */
+    float: left;
+    /* задаем поток обтекания слева */
 }
+
 .right-block {
     margin-right: 100px;
-    width: 700px; /* задаем ширину блока */
+    width: 700px;
+    /* задаем ширину блока */
     /*background-color: cadetblue; /* временно устанавливаем фон */
-    float: right; /* задаем поток обтекания справа */
+    float: right;
+    /* задаем поток обтекания справа */
 }
 
-.kir{
-    margin-top: 100px ;
+.kir {
+    margin-top: 100px;
 }
 
-.text{
-    font-size: 30px ;
+.text {
+    font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
 }
 
 .topNubex {
-	position: fixed;
-	right: 45px;
-	bottom: 45px;
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
 }
 
-.vse{
+.topNubex__img {
+    width: 75px;
+}
+
+.vse {
     display: flex;
     flex-direction: column;
     background-color: rgb(197, 197, 197);
@@ -53,8 +62,8 @@
 
 }
 
-.kir{
-    margin-top: 50px ;
+.kir {
+    margin-top: 50px;
     width: auto;
     height: auto;
     /*background-color: rgb(255, 0, 0);*/
@@ -62,7 +71,7 @@
     margin-right: 30px;
 }
 
-.zag{
+.zag {
     font-size: 50px;
 }
 
@@ -71,11 +80,22 @@
     margin-top: 5px;
     width: 90%;
 }
+
 @media (max-width: 720px) {
-    .text{
+    .text {
         font-size: 15px;
     }
-    .vse{
+
+    .vse {
         margin: 25px;
+    }
+
+    .topNubex {
+        right: 25px;
+        bottom: 25px;
+    }
+
+    .topNubex__img {
+        width: 40px;
     }
 }
